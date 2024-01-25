@@ -4,7 +4,7 @@ public class Person implements Payable{
     private String name;
     private String surname;
 
-    private static int nextId = 1;
+    private static int  nextId = 1;
 
     public Person(String name, String surname){
         this.name = name;
